@@ -4,16 +4,15 @@
 
 ### Downloading and saving cats!
 
-### Use this API: https://docs.thecatapi.com/ to implement the app with the following features:
-1. Ability to download and show cats in a list. (Use Glide or Coil)
-2. Pagination (your recycler should upload fresh portion of cats every time it reaches the end)
-3. Detailed view. After clicking the cat in the recycler “full” image should be opened with card flip animation.
-4. User could save the image to the Galery.
+### Use this API: https://docs.thecatapi.com/   to implement the app with the following features:
+- [ ] Используя Retrofit, вам нужно сходить в интернет, взять по api список картинок с котиками и отобразить котиков на экране (через Glide или Coil).
+- [ ] Картинки подгружаются порциями (Pagination) - размер порции на ваше усмотрение, 10-20, думаю, оптимальный вариант. Долистал пользователь до конца первой порции - подгружаем следующую.
+- [ ] По нажатию на картинку в списке эта картинка открывается на отдельном экране на весь экран. На этом экране можете отобразить какую-то дополнительную инфу из объекта картинки, который вы получили через api, также у пользователя должна быть возможность сохранить картинку на устройстве.
+- [ ] Попробуйте организовать переход между экраном со списком и экраном с отдельной картинкой через flip анимацию.
+- [x] Подключите статические анализатора кода в ваш проект: detekt и ktlint
 
-### Use Retrofit to call REST API
-### Use static code analyzers(detekt and ktlint)
+### Как задачки со звёздочкой:
 
-## Optional:
-1. You can try Kotlin scripts for build system.
-2. Cover logic with unit tests (Spek2 + Mockk)
+1.  Попробуйте использовать Kotlin DSL вместо Groovy для организации сборки проекта
+2.  Покройте какую-либо логику в вашем проекте юнит-тестами, можно использовать Spek2 + Mockk для этого, или другие фреймворки для тестов
 
