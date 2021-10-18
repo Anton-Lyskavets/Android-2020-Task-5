@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cats</string>
+    <string name="cat_item_image">image</string>
+    <string name="description_image">image for cat</string>
+    <string name="details_value_name">name</string>
+    <string name="item_menu_title_download">download</string>
+    <string name="alert_dialog_check_internet_message">No internet connection</string>
+    <string name="alert_dialog_botton_left">UPDATING</string>
+    <string name="alert_dialog_botton_right">EXIT</string>
+    <string name="alert_dialog_on_back_message">Quit the application</string>
+    <string name="alert_dialog_botton_yes">Yes</string>
+    <string name="alert_dialog_botton_no">No</string>
+
+    <integer name="card_flip_duration_full">1500</integer>
+    <integer name="card_flip_duration_half">750</integer>
+
+</resources>
